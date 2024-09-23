@@ -4,11 +4,11 @@ import { Link } from 'expo-router';
 
 export default function App() {
   return (
-    <View className="flex-1 font-extrabold bg-white justify-center items-center">
-      <Text className="text-3xl">Aora!</Text>
+    <View className="flex-1 bg-white justify-center items-center">
+      <Text className="text-3xl font-pblack">Aora!</Text>
       <StatusBar style="auto" />
-      <Link href="/profile" className="bg-yellow-400">
-        Go to Profile
+      <Link href="/home" className="bg-yellow-400">
+        Go to Home
       </Link>
     </View>
   );
