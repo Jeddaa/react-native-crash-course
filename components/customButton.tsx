@@ -7,7 +7,7 @@ interface CustomBottonProps {
   title: string;
   handlePress: (event: GestureResponderEvent) => void;
   containerStyles: string;
-  textStyles: string;
+  textStyles?: string;
   isLoading: boolean;
 }
 
