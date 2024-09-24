@@ -3,6 +3,7 @@ import { ScrollView, Text, View, Image } from 'react-native';
 import { Link } from 'expo-router';
 import { SafeAreaView } from 'react-native-safe-area-context';
 import { images } from '../constants';
+import CustomBotton from '@/components/customButton';
 
 export default function App() {
   return (
@@ -34,6 +35,7 @@ export default function App() {
             Where Creativity Meets Innovation: Embark on a journey to limitless
             exploration with Aora
           </Text>
+          <CustomBotton />
         </View>
       </ScrollView>
     </SafeAreaView>
